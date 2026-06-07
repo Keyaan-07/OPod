@@ -633,6 +633,12 @@
       "sort_field": "Reference"
     },
     "bus_aliases": {
+      "CHG_CMD": [
+        "CHG_SDA",
+        "CHG_SCL",
+        "CHG_INT",
+        "CHG_OTG"
+      ],
       "USB_CHG": [
         "CHG_DP",
         "CHG_DN",
@@ -691,7 +697,7 @@
         "uuid": "447add3b-10e3-420d-8351-929405f320f6"
       }
     ],
-    "used_designators": "U5-6,#PWR9-23,TP2-3,FB1,J1,J4,R3-8,C11-16,Y1",
+    "used_designators": "R3-4,R8-18,D4,L2,#PWR11,#PWR24-49,SW1,C17-33,U7-8",
     "variants": []
   },
   "sheets": [
@@ -721,11 +727,15 @@
     ],
     [
       "022fdadb-cc5c-4213-86b9-a0045056492d",
-      "charging"
+      "charging and power"
     ],
     [
       "4bee1e05-6e85-4d59-8eb5-0047cbadc9c2",
       "USB"
+    ],
+    [
+      "8388653c-3d84-4ec0-bbfe-f53366ecf117",
+      "Wireless"
     ]
   ],
   "text_variables": {},

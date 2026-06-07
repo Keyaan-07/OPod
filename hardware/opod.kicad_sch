@@ -21,7 +21,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "022fdadb-cc5c-4213-86b9-a0045056492d")
-		(property "Sheetname" "charging"
+		(property "Sheetname" "charging and power"
 			(at 160.02 108.5084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46,6 +46,16 @@
 		(pin "USB_CHG" input
 			(at 170.18 109.22 90)
 			(uuid "f65aa903-6c17-4de2-9d7c-17ae03eda5d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CHG_CMD" input
+			(at 171.7993 109.22 90)
+			(uuid "8bfeebde-8531-4ecc-adad-1e7985981495")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -277,6 +287,16 @@
 				(justify right)
 			)
 		)
+		(pin "CHG_CMD" input
+			(at 142.24 140.0298 180)
+			(uuid "6471861a-6939-4400-9de2-7532e82977c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "opod"
 				(path "/447add3b-10e3-420d-8351-929405f320f6"
@@ -337,6 +357,52 @@
 			(project "opod"
 				(path "/447add3b-10e3-420d-8351-929405f320f6"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 130.81)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8388653c-3d84-4ec0-bbfe-f53366ecf117")
+		(property "Sheetname" "Wireless"
+			(at 184.15 130.0984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wireless.kicad_sch"
+			(at 184.15 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "opod"
+				(path "/447add3b-10e3-420d-8351-929405f320f6"
+					(page "9")
 				)
 			)
 		)

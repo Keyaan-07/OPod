@@ -674,6 +674,14 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 111.76 91.44)
+		(uuid "396e7a37-45ed-42f2-b61f-49eece3b8201")
+	)
+	(no_connect
+		(at 111.76 93.98)
+		(uuid "ca9ea400-f5b3-4fe7-ae39-c679a908abaa")
+	)
 	(symbol
 		(lib_id "Analog_DAC:TLV320DAC3101")
 		(at 129.54 97.79 0)
